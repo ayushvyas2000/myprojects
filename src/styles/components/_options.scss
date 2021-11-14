@@ -1,0 +1,27 @@
+.widget__header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding: $xs-size;
+}
+
+.widget__headertext{
+    font-size: $xs-size;
+}
+
+.widget{
+    border: 1px solid white;
+    margin-bottom: $xs-size;
+}
+
+.option{
+    display: flex;
+    padding: 0.7rem;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.option__text{
+    word-break: break-all;
+    font-size: $xs-size;
+}

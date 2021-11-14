@@ -1,0 +1,30 @@
+.header{
+ margin-top: $xs-size;
+ margin-bottom: $xs-size;
+}
+
+.header__title{
+    font-size: $l-size;
+    margin: 0;
+    text-shadow: 0.3rem 0.3rem $black-shadow;;
+}
+
+.header__subtitle{
+    font-size: $m-size;
+    margin: 0;
+    text-shadow: 0.3rem 0.3rem $black-shadow;;
+}
+
+@media (max-width: 45rem) {
+    .header{
+        padding: 0;
+        margin: $s-size 0;
+    }
+    .header__title{
+        font-size: $m-size;
+    }
+
+    .header__subtitle{
+        font-size: $s-size;
+    }
+}

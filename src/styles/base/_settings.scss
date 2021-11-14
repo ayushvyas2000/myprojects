@@ -1,0 +1,13 @@
+$l-size: 5rem !global;
+$m-size: 3.5rem !global;
+$s-size: 2.8rem !global;
+$xs-size: 1.9rem !global;
+$black-shadow: #00000031;
+
+button{
+    cursor: pointer;
+    &:disabled{
+        cursor: default;
+    }
+}
+
