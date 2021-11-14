@@ -67,9 +67,9 @@ componentDidUpdate(prevProps,prevState){
         return(
             <div className='container'>
             <Header />
-            <Action makechoice={this.makechoice} hasoptions={this.state.options.length>1}/>
             <Options  hasoptions={this.state.options.length>0} removesingle={this.removesingle} removeall={this.removeall} options={this.state.options} />
             <AddOptions addOption={this.addOption}/>
+            <Action makechoice={this.makechoice} hasoptions={this.state.options.length>1}/>
             <OptionModal selected={this.state.selected} resetmodal={this.resetmodal} />
             </div>
         )
